@@ -21,12 +21,12 @@ const Hero = () => {
             <img
               src={aboutImage1.src}
               alt="about home"
-              className="w-[20.25rem] h-[26.25rem] object-cover rounded-2xl"
+              className="w-[20.25rem] h-[26.25rem] object-cover rounded-2xl shadow-2xl shadow-btn-shadow/50"
             />
             <img
               src={aboutImage2.src}
               alt="about work illustration"
-              className="w-[13.75rem] h-[17.813rem] object-cover absolute bottom-0  right-0 -mr-32 -mb-32 rounded-2xl"
+              className="w-[13.75rem] h-[17.813rem] object-cover absolute bottom-0  right-0 -mr-32 -mb-32 rounded-2xl shadow-2xl shadow-btn-shadow/50"
             />
           </div>
 

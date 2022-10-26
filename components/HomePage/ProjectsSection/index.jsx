@@ -41,18 +41,18 @@ const ProjectsSection = () => {
           <img
             src={projectHome2.src}
             alt="project home 1"
-            className="w-60 h-[20.688rem] object-cover"
+            className="w-60 h-[20.688rem] object-cover -mb-5"
           />
 
           <img
             src={projectHome3.src}
             alt="project home 1"
-            className="w-[12.125rem] h-64 object-cover ml-auto shadow-2xl shadow-btn-shadow/50"
+            className="w-[12.125rem] h-64 object-cover ml-auto shadow-2xl shadow-btn-shadow/50 "
           />
           <img
             src={projectHome4.src}
             alt="project home 1"
-            className="w-[13.438rem] h-36"
+            className="w-[13.438rem] h-36 mt-5"
           />
         </div>
       </div>

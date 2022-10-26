@@ -42,7 +42,7 @@ const HeroSection = () => {
             <div className="flex gap-5 pt-20">
               <Button
                 title="Services"
-                className="py-6 px-10 bg-primary-green text-white font-bold  rounded-xsm text-xsm"
+                className="py-6 px-10 bg-primary-green text-white font-bold  rounded-xsm text-xsm shadow-2xl shadow-btn-shadow/50"
               />
               <Button
                 title="About the company"
@@ -56,12 +56,12 @@ const HeroSection = () => {
               <img
                 src={home1.src}
                 alt="home 1"
-                className="w-40 h-40 object-cover ml-auto"
+                className="w-32 h-36 object-cover ml-auto"
               />
               <img
                 src={home2.src}
                 alt="home 2"
-                className="w-56 h-56 object-cover"
+                className="w-56 h-56 object-cover "
               />
               <img
                 src={home3.src}
