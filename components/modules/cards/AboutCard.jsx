@@ -15,7 +15,6 @@ const AboutCard = ({ content }) => {
         alt={content.name}
         className="w-full object-cover rounded-t-xl"
       />
-
       <div className="p-6">
         <p className="text-content-green-primary font-bold">{content.name}</p>
         <p className="text-base text-content-green-secondary">
