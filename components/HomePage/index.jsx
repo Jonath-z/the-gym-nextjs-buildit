@@ -8,7 +8,7 @@ import SocialSection from "./SocialSection";
 
 const HomePage = () => {
   return (
-    <section className="">
+    <section>
       <HeroSection />
       <ServicesSection />
       <PartenersAndAbout />
