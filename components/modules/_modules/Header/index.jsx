@@ -17,9 +17,15 @@ const Header = () => {
         <Link href="/about">
           <li className="cursor-pointer">About</li>
         </Link>
-        <li className="cursor-pointer">Services</li>
-        <li className="cursor-pointer">Projects</li>
-        <li className="cursor-pointer">Contact</li>
+        <Link href="/services">
+          <li className="cursor-pointer">Services</li>
+        </Link>
+        <Link href="/projects">
+          <li className="cursor-pointer">Projects</li>
+        </Link>
+        <Link href="/contacts">
+          <li className="cursor-pointer">Contact</li>
+        </Link>
       </ul>
       <Button title="Need a projets ?" />
     </section>
